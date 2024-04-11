@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #400040;
+    padding: 20px;
+}
+
+/* Styling the h1 heading */
+h1 {
+	display: block;
+    width: 250px;
+    text-align: center;
+    color: #fff;
+    margin: 10px auto;
+	font-style:normal;
+	font-weight: 600;
+    text-align: center;
+}
+
+/* Styling the links */
+a {
+	font-weight:bolder;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+/* Changing link color on hover */
+a:hover {
+    background-color: #0056b3;
+}
